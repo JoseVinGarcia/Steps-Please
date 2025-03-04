@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"particles_load",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"particles_load",
+  "parent":{
+    "name":"Functions",
+    "path":"folders/Scripts/Functions.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
