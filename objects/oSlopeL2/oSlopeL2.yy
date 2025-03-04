@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sSlopeL1",
-    "path":"sprites/sSlopeL1/sSlopeL1.yy",
+    "name":"sSlopeL2",
+    "path":"sprites/sSlopeL2/sSlopeL2.yy",
   },
   "spriteMaskId":null,
   "visible":true,

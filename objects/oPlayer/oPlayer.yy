@@ -1,22 +1,19 @@
 {
   "$GMObject":"",
-  "%Name":"oSemiSolid",
+  "%Name":"oPlayer",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"oSemiSolid",
+  "name":"oPlayer",
   "overriddenProperties":[],
   "parent":{
-    "name":"Solid",
-    "path":"folders/Objects/Solid.yy",
+    "name":"Player",
+    "path":"folders/Objects/Player.yy",
   },
-  "parentObjectId":{
-    "name":"oSolid",
-    "path":"objects/oSolid/oSolid.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -35,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sSemiSolid",
-    "path":"sprites/sSemiSolid/sSemiSolid.yy",
+    "name":"sPlayerI",
+    "path":"sprites/sPlayerI/sPlayerI.yy",
   },
   "spriteMaskId":null,
   "visible":true,
