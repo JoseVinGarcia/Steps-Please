@@ -5,7 +5,7 @@ var walkr = keyboard_check_released(vk_space);
 var jump = keyboard_check(vk_space);
 
 // Moving (only on ground)
-if (canmove) && (onthefloor) {
+if (canmove) {
 	if (walkp or walkr) {
 		hsp += walksp;
 		image_index += 1;
@@ -23,6 +23,7 @@ if vsp > 3 { vsp = 3; }
 if (jump) && (onthefloor) {
 	jumpl = approach(jumpl, jumplxmax, jumplfrac)
 	if jumpl = jumplxmax {
+		canmove = false;
 		vsp = -jumpsp;
 		hsp = (walksp / 2) * dir;
 	}
