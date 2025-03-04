@@ -4,3 +4,5 @@ player = oPlayer;
 
 //HIGH SCORE STUFF
 hits = 0;
+timer = 0;
+timeractive = false;

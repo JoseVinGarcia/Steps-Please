@@ -1,4 +1,5 @@
 /// @description Initial Variables
+sprite_index = sShipSb;
 movesp = 2;
 accel = 0.1;
 hsp = 0;
