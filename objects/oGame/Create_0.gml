@@ -54,3 +54,31 @@ part_type_colour3(ptLaser, $FFFFFF, $FFFFFF, $FFFFFF);
 part_type_alpha3(ptLaser, 1, 1, 1);
 part_type_blend(ptLaser, false);
 part_type_life(ptLaser, 0, 5);
+
+//Death FX Right
+ptDeathR = part_type_create();
+part_type_sprite(ptDeathR, sDeathfx, false, false, false)
+part_type_size(ptDeathR, 1, 1, 0, 0);
+part_type_scale(ptDeathR, 1, 1);
+part_type_speed(ptDeathR, 1, 2, 0, 0);
+part_type_direction(ptDeathR, 0, 0, 0, 0);
+part_type_gravity(ptDeathR, 0, 270);
+part_type_orientation(ptDeathR, 0, 0, 0, 0, false);
+part_type_colour3(ptDeathR, $FFFFFF, $FFFFFF, $FFFFFF);
+part_type_alpha3(ptDeathR, 1, 1, 1);
+part_type_blend(ptDeathR, false);
+part_type_life(ptDeathR, 15, 30);
+
+//Death FX Left
+ptDeathL = part_type_create();
+part_type_sprite(ptDeathL, sDeathfx, false, false, false)
+part_type_size(ptDeathL, 1, 1, 0, 0);
+part_type_scale(ptDeathL, 1, 1);
+part_type_speed(ptDeathL, 1, 2, 0, 0);
+part_type_direction(ptDeathL, 180, 180, 0, 0);
+part_type_gravity(ptDeathL, 0, 270);
+part_type_orientation(ptDeathL, 0, 0, 0, 0, false);
+part_type_colour3(ptDeathL, $FFFFFF, $FFFFFF, $FFFFFF);
+part_type_alpha3(ptDeathL, 1, 1, 1);
+part_type_blend(ptDeathL, false);
+part_type_life(ptDeathL, 15, 30);
