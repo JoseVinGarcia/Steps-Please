@@ -1,5 +1,6 @@
 /// @description Initial variables, Also zooms in
 sprite_index = sButtonP;
+oGame.hits = 0;
 
 // camera code
 wwmax = camera_get_view_width(view_camera[0]);
@@ -14,5 +15,3 @@ camera_set_view_size(view_camera[0], ww / 2, yy / 2);
 alarm[0] = 240;
 spaceb = false;
 spacetransp = 0;
-
-
