@@ -9,6 +9,7 @@ if (canmove) {
 	if (walkp or walkr) {
 		hsp += walksp;
 		image_index += 1;
+		sprite_index = sPlayerW;
 	} else {
 		hsp = 0;
 	}
@@ -69,3 +70,8 @@ y += vsp;
 
 // Sprites section
 image_xscale = dir;
+if !onthefloor {
+	sprite_index = sPlayerA;
+} else {
+	if sprite_index = sPlayerA sprite_index = sPlayerW;
+}
