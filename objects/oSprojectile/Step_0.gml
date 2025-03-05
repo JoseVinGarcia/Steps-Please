@@ -9,7 +9,9 @@ if (rising) {
 } else {
 	speed = movesp;
 	direction = dir;
+	part_particles_create(oGame.psys,x,y,oGame.ptLaser,4);
 }
 
 // Destroying
 if place_meeting(x, y, oSolid) instance_destroy();
+part_particles_create(oGame.psys,x,y,oGame.ptLaser,16);

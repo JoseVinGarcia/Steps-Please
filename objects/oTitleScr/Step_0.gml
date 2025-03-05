@@ -14,7 +14,9 @@ if (active) {
 		camera = instance_create_layer(x, y, "Control", oCamera);
 	}
 } else {
-	if (keypressd) active = true;
+	if (keypressd) {
+		active = true;
+	}
 }
 camera_set_view_size(view_camera[0], ww, yy);
 

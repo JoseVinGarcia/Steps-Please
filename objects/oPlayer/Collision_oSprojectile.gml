@@ -10,5 +10,8 @@ if (canhurt) {
 		hsp -= walksp*2 * dir;
 	}
 	oGame.hits += 1;
-	with (other) instance_destroy();
+	with (other) {
+		part_particles_create(oGame.psys,x,y,oGame.ptLaser,4);
+		instance_destroy();
+	}
 }

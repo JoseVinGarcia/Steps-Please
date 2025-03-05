@@ -5,4 +5,4 @@ accel = 0.1;
 hsp = 0;
 vsp = 0;
 target = oPlayer;
-alarm[0] = 240;
+alarm[0] = 180;

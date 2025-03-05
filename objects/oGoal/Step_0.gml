@@ -20,4 +20,8 @@ if pos1 == 1 {
 // gets smaller
 if (smalling) {
 	image_yscale = approach(image_yscale, 0, fracc);
+	if image_yscale = 0 {
+		smalling = false;
+		part_particles_create(oGame.psys,x + (sprite_width / 2), y, oGame.ptGoal,16);
+	}
 }

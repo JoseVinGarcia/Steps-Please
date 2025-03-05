@@ -1,5 +1,5 @@
 /// @description Initial variables, Also zooms in
-sprite_index = sButton;
+sprite_index = sButtonP;
 
 // camera code
 wwmax = camera_get_view_width(view_camera[0]);
