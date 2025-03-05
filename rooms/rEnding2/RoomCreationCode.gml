@@ -1,0 +1,1 @@
+music_play(mscStages, 1, false);

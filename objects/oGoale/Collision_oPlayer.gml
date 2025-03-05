@@ -12,4 +12,7 @@ if (other.canmove) {
 	oShipB.confetti = false;
 	oCamera.active = false;
 	alarm[0] = 60;
+	audio_stop_sound(mscStages)
+	sound_play(sndVictoryFinal, 1, false, true);
 }
+part_particles_create(oGame.psys,x + (sprite_width / 2), y, oGame.ptGoal,16);

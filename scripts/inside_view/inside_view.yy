@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"npc_move_collide",
+  "%Name":"inside_view",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"npc_move_collide",
+  "name":"inside_view",
   "parent":{
     "name":"Scripts",
     "path":"folders/Scripts.yy",

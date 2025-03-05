@@ -17,5 +17,6 @@ if (other.canmove) {
 	smalling = true;
 	oCamera.active = false;
 	alarm[0] = 180;
+	sound_play(sndVictory, 1, false, true)
 }
 part_particles_create(oGame.psys,x + (sprite_width / 2), y, oGame.ptGoal,16);

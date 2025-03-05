@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"approach",
   "parent":{
-    "name":"Functions",
-    "path":"folders/Scripts/Functions.yy",
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

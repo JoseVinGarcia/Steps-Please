@@ -10,6 +10,7 @@ if (canmove) {
 		hsp += walksp;
 		image_index += 1;
 		sprite_index = sPlayerW;
+		audio_play_sound(sndStep,1,false);
 	} else {
 		hsp = 0;
 	}
@@ -27,6 +28,7 @@ if (jump) && (onthefloor) {
 		canmove = false;
 		vsp = -jumpsp;
 		hsp = (walksp / 2) * dir;
+		audio_play_sound(sndJump,1,false);
 	}
 } else {
 	jumpl = 0;

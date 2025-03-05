@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"npc_move_collide",
+  "%Name":"audio",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"npc_move_collide",
+  "name":"audio",
   "parent":{
     "name":"Scripts",
     "path":"folders/Scripts.yy",

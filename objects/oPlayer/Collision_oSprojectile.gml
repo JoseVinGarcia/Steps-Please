@@ -14,4 +14,5 @@ if (canhurt) {
 		part_particles_create(oGame.psys,x,y,oGame.ptLaser,4);
 		instance_destroy();
 	}
+	audio_play_sound(sndDamage,1,false);
 }

@@ -15,5 +15,6 @@ if (rising) {
 		alarm[1] = 240;
 	} else {
 		rising = false;
+		audio_play_sound(sndLaugh, 1, false);
 	}
 }

@@ -5,6 +5,7 @@ if (rising) {
 	image_yscale = approach(image_yscale, 1, fracion);
 	if image_xscale = 1 {
 		rising = false;
+		sound_play(sndAttack,1,false,true);
 	}
 } else {
 	speed = movesp;

@@ -12,6 +12,8 @@ if (active) {
 	if ((ww = wwmax) && (yy = yymax)) {
 		instance_destroy();
 		camera = instance_create_layer(x, y, "Control", oCamera);
+		audio_stop_sound(mscTitle);
+		audio_play_sound(mscStages, 2, true);
 	}
 } else {
 	if (keypressd) {

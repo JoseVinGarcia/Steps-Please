@@ -7,5 +7,6 @@
 		vsp =- other.strength;
 		hsp = walksp*dir;
 	}
+	audio_play_sound(sndSpring,1,false);
 	image_speed = 1;
 //}
