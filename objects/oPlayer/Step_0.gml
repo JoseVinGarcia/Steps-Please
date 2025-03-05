@@ -28,7 +28,7 @@ if (jump) && (onthefloor) {
 		canmove = false;
 		vsp = -jumpsp;
 		hsp = (walksp / 2) * dir;
-		audio_play_sound(sndJump,1,false);
+		if !audio_is_playing(sndJump) audio_play_sound(sndJump,1,false);
 	}
 } else {
 	jumpl = 0;
