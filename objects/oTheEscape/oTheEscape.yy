@@ -34,5 +34,5 @@
     "path":"sprites/sEvent/sEvent.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

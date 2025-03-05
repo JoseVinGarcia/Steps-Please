@@ -1,2 +1,6 @@
 /// @description Reactivates timer
-cantimer = true;
+if room != (rLvl12) {
+	cantimer = true;
+} else {
+	cantimer = false;
+}

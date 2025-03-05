@@ -11,7 +11,7 @@ if (other.canmove) {
 	}
 	with (oShipB) {
 		repeat(16) {
-			part_particles_create(oGame.psys, random_range(x - 16, x + 16), random_range(y - 4, x + 4), oGame.ptConfetti, 1);
+			part_particles_create(oGame.psys, random_range(x - 16, x + 16), random_range(y - 4, y + 4), oGame.ptConfetti, 1);
 		}
 	}
 	smalling = true;

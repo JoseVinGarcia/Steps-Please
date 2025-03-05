@@ -82,3 +82,32 @@ part_type_colour3(ptDeathL, $FFFFFF, $FFFFFF, $FFFFFF);
 part_type_alpha3(ptDeathL, 1, 1, 1);
 part_type_blend(ptDeathL, false);
 part_type_life(ptDeathL, 15, 30);
+
+// Dust (side)
+ptDust1 = part_type_create();
+part_type_shape(ptDust1, pt_shape_pixel);
+part_type_size(ptDust1, 1, 1, 0, 0);
+part_type_scale(ptDust1, 1, 1);
+part_type_speed(ptDust1, 1, 3, 0, 1);
+part_type_direction(ptDust1, 180, 180, 0, 10);
+part_type_gravity(ptDust1, 0, 270);
+part_type_orientation(ptDust1, 0, 0, 0, 0, false);
+part_type_colour3(ptDust1, $FFFFFF, $FFFFFF, $FFFFFF);
+part_type_alpha3(ptDust1, 1, 1, 1);
+part_type_blend(ptDust1, false);
+part_type_life(ptDust1, 10, 180);
+
+
+// Dust (Vertical)
+ptDust2 = part_type_create();
+part_type_shape(ptDust2, pt_shape_pixel);
+part_type_size(ptDust2, 1, 1, 0, 0);
+part_type_scale(ptDust2, 1, 1);
+part_type_speed(ptDust2, 1, 3, 0, 1);
+part_type_direction(ptDust2, 90, 90, 0, 10);
+part_type_gravity(ptDust2, 0, 270);
+part_type_orientation(ptDust2, 0, 0, 0, 0, false);
+part_type_colour3(ptDust2, $FFFFFF, $FFFFFF, $FFFFFF);
+part_type_alpha3(ptDust2, 1, 1, 1);
+part_type_blend(ptDust2, false);
+part_type_life(ptDust2, 10, 180);
