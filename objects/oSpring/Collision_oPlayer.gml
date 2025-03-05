@@ -7,4 +7,5 @@
 		vsp =- other.strength;
 		hsp = walksp*dir;
 	}
+	image_speed = 1;
 //}

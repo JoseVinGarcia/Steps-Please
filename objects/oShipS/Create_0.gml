@@ -6,3 +6,4 @@ hsp = 0;
 vsp = 0;
 target = oPlayer;
 alarm[0] = 180;
+timer = 0;

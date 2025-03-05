@@ -37,8 +37,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sSemiSolid",
-    "path":"sprites/sSemiSolid/sSemiSolid.yy",
+    "name":"sFloating",
+    "path":"sprites/sFloating/sFloating.yy",
   },
   "spriteMaskId":null,
   "visible":true,

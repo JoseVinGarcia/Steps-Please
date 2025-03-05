@@ -39,5 +39,5 @@
     "path":"sprites/sSemiSolid/sSemiSolid.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }
